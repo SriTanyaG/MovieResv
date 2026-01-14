@@ -1,7 +1,7 @@
 # Movie Reservation System (MR)
 
 ## Introduction
-The Movie Reservation System is a robust backend API built with Django and Django Rest Framework (DRF). It is designed to bridge the gap between theater owners and movie-goers, providing a secure and efficient platform for managing cinema infrastructure and booking tickets.
+The Movie Reservation System is a robust backend API built with Django and Django Rest Framework (DRF). It is for theater owners and movie-goers, providing a secure and efficient platform for managing cinema infrastructure and booking tickets.
 
 ---
 
