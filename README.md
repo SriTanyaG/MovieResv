@@ -39,7 +39,7 @@ Regular users have a streamlined interface focused on discovery and easy reserva
 - **Discovery**: Users can view all available shows across all theaters.
   - `URL: /api/theaters/shows/`
   - **Dynamic URLs**: Every show entry includes a `book_url`. This URL is active for customers but remains `null` for owners to prevent accidental self-booking.
-- **Booking**: Clicking a `book_url` takes the user to the booking form where the specific show details (Theater, Movie, Time) are pre-locked. Users simply enter the number of seats.
+- **Booking**: Clicking a `book_url` takes the user to the booking form where the specific show details (Theater, Movie, Time) are pre-filled. Users simply enter the number of seats.
   - `URL: /api/bookings/?show=<id>`
 - **History & Cancellation**: Users can view their personalized booking history. Each booking includes a `cancel_url` for a one-click redirect to the cancellation page.
   - `URL: /api/bookings/`
